@@ -9,11 +9,11 @@ const getState = ({getStore, getActions, setStore}) => {
 
         },
         actions:{
-            handleChange: (e) =>{
+            /* handleChange: (e) =>{
                 setStore({
                     [e.target.name]: e.target.value,
                 })
-            }
+            } */
 
         }
     };
