@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import injectContext from './store/appContext';
 import Navbar from "./components/Navbar";
 import Register from "./views/Register";
 import Login from "./views/Login";
@@ -26,4 +27,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default injectContext(App);
